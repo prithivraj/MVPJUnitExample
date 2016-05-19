@@ -5,7 +5,7 @@
 package com.extremeboredom.mvptestingexample;
 
 public class MathService {
-    public static float divide(int numA, int numB) {
+    public float divide(int numA, int numB) {
         return numA/numB;
     }
 }

@@ -52,7 +52,7 @@ public class CalculatorActivity extends AppCompatActivity implements CalculatorV
 
     @Override
     public int getNumA() {
-        return 0;
+        return Integer.valueOf(numA.getText().toString());
     }
 
     @Override

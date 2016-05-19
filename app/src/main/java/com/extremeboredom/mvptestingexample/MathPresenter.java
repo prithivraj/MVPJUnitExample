@@ -19,7 +19,7 @@ public class MathPresenter {
         if(numB == 0){
             calculatorView.showError(R.string.divide_by_zero);
         }
-        float quotient = MathService.divide(numA, numB);
+        float quotient = mathService.divide(numA, numB);
         calculatorView.showResult(quotient);
     }
 }

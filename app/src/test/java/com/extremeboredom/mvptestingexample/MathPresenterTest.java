@@ -35,6 +35,7 @@ public class MathPresenterTest {
     public void testDivide() throws Exception {
         Mockito.when(view.getNumB()).thenReturn(2);
         Mockito.when(view.getNumA()).thenReturn(10);
+        //Mockito.when(service.divide(10, 2)).thenReturn(3f);
         presenter.onSubmitClicked();
         Mockito.verify(view).showResult(5);
     }
