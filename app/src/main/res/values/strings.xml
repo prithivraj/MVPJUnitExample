@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MVPTestingExample</string>
+    <string name="test">Result:</string>
+    <string name="divide">Divide</string>
+    <string name="number_a">Number A</string>
+    <string name="non_zero_number_b">Non zero number B</string>
+    <string name="divide_by_zero">Divide by zero error</string>
+</resources>
